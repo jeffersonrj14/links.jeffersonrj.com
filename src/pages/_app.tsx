@@ -1,8 +1,8 @@
-import "../styles/globals.css";
 import { AppProps } from "next/app";
 import { AnimatePresence } from "framer-motion";
 import DefaultLayout from "@/components/layout/DefaultLayout";
-import UseScrollToTop from "@/hooks/useScrollToTop";
+
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
       <DefaultLayout>
         <Component {...pageProps} />
       </DefaultLayout>
-      <UseScrollToTop />
     </AnimatePresence>
   );
 }
