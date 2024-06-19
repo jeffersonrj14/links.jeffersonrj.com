@@ -30,7 +30,7 @@ function AppFooter() {
 
   return (
     <footer className="mx-auto my-4 max-w-[872px] px-4 text-stone-300 md:px-0">
-      <p className="pb-2">
+      <p className="pb-2 justify-center text-center">
         &copy; {year}{" "}
         <Link
           href="https://github.com/jeffersonrj14"
