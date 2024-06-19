@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: process.env.SITE_URL || "https://jeffersonrj.com",
+  siteUrl: process.env.SITE_URL || "https://links.jeffersonrj.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
   robotsTxtOptions: {

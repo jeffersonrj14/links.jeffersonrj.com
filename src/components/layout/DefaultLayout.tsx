@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { Toaster } from "react-hot-toast";
-// import AppHeader from '../shared/AppHeader';
+// import AppHeader from "@/components/shared/AppHeader";
 import AppFooter from "@/components/shared/AppFooter";
 import PagesMetaHead from "@/components/PagesMetaHead";
 

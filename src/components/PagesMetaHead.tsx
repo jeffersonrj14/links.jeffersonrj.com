@@ -10,13 +10,13 @@ type PagesMetaHeadProps = {
 };
 
 function PagesMetaHead({
-  title = "Ritch Johan Jefferson - Personal Template",
+  title = "My Info",
   keywords = "next.js",
-  description = "Ritch Johan Jefferson - Personal Template",
-  template = "%s | Personal Template",
-  icon = "/next.svg",
+  description = "My Info",
+  template = "%s | Links",
+  icon = "/favicon.ico",
 }: PagesMetaHeadProps) {
-  const siteUrl = process.env.SITE_URL || "https://jeffersonrj.com";
+  const siteUrl = process.env.SITE_URL || "https://links.jeffersonrj.com";
   const seoTitle = template.replace("%s", title);
   return (
     <>
