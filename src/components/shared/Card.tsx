@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import {
   showHoverAnimation,
   removeHoverAnimation,
-} from "@/hooks/windowAnimation";
+} from "@/lib/windowAnimation";
 import { popUp } from "@/lib/FramerMotionVariants";
 
 interface Props {

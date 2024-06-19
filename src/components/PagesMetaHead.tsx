@@ -10,10 +10,10 @@ type PagesMetaHeadProps = {
 };
 
 function PagesMetaHead({
-  title = "My Info",
+  title = "RJ Jefferson",
   keywords = "next.js",
-  description = "My Info",
-  template = "%s | Links",
+  description = "Self-Taught Developer",
+  template = "%s",
   icon = "/favicon.ico",
 }: PagesMetaHeadProps) {
   const siteUrl = process.env.SITE_URL || "https://links.jeffersonrj.com";
@@ -27,7 +27,7 @@ function PagesMetaHead({
           type: "website",
           locale: "en_US",
           url: siteUrl,
-          siteName: "Portfolio",
+          siteName: "Links",
         }}
         twitter={{
           handle: "@jeffersonrj14",

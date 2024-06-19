@@ -1,12 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "i.scdn.co",
-      },
-    ],
+  i18n: {
+    locales: ["en-US"],
+    defaultLocale: "en-US",
   },
 };
 
