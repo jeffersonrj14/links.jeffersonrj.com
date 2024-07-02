@@ -6,6 +6,7 @@ import { GrMailOption } from "react-icons/gr";
 import { CiGlobe } from "react-icons/ci";
 import { FaTools } from "react-icons/fa";
 import { HiLink } from "react-icons/hi";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
 
 function Hero() {
   return (
@@ -87,7 +88,7 @@ function Hero() {
         <ul className="my-2 grid grid-cols-1 md:grid-cols-2 gap-4">
           <Card
             icon={CiGlobe}
-            title="Portfolio"
+            title="Personal Website"
             body="Next.js + JS + Tailwind + Framer Motion"
             href="https://jeffersonrj.com"
             iconHexColor="#235cb8"
@@ -105,6 +106,13 @@ function Hero() {
             body="Next.js + TS + Tailwind + Framer Motion"
             href="https://links.jeffersonrj.com"
             iconHexColor="#254F1A"
+          />
+          <Card
+            icon={LiaLaptopCodeSolid}
+            title="Projects"
+            body="Vite + React + TS + Tailwind"
+            href="https://projects.jeffersonrj.com"
+            iconHexColor="#138ba5"
           />
         </ul>
       </section>
